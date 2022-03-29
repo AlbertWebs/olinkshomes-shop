@@ -92,6 +92,13 @@ Route::group(['prefix'=>'shopping-cart'], function(){
 
 });
 
+// Cache
+Route::get('/clear-cache', function() {
+    $exitCode = Artisan::call('cache:clear');
+    $exitCode2 = Artisan::call('config:clear');
+
+    echo "Done";
+});
 
 Route::post('/checkemail',[App\Http\Controllers\HomeController::class, 'checkEmail'])->name('checkEmail');
 // Language Support
