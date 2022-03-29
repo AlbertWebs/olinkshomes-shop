@@ -1,16 +1,25 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'v8.0.0',
-    'version' => '8.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '8eccd0c822ebb57f990bfba839a434211ba0d66e',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
   array (
+    'artesaos/seotools' => 
+    array (
+      'pretty_version' => 'v0.22.0',
+      'version' => '0.22.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '55746e0870d3bb6507479bd846d5528c46a7312e',
+    ),
     'asm89/stack-cors' => 
     array (
       'pretty_version' => 'v2.1.1',
@@ -87,6 +96,15 @@
       array (
       ),
       'reference' => 'be85b3f05b46c39bbc0d95f6c071ddff669510fa',
+    ),
+    'dymantic/laravel-instagram-feed' => 
+    array (
+      'pretty_version' => 'v2.6.0',
+      'version' => '2.6.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '88d5c69034a8690b0056cb91f8139cfadc552724',
     ),
     'egulias/email-validator' => 
     array (
@@ -189,12 +207,12 @@
     ),
     'guzzlehttp/psr7' => 
     array (
-      'pretty_version' => '2.1.0',
-      'version' => '2.1.0.0',
+      'pretty_version' => '1.8.5',
+      'version' => '1.8.5.0',
       'aliases' => 
       array (
       ),
-      'reference' => '089edd38f5b8abba6cb01567c2a8aaa47cec4c72',
+      'reference' => '337e3ad8e5716c15f9657bd214d16cc5e69df268',
     ),
     'hamcrest/hamcrest-php' => 
     array (
@@ -440,12 +458,12 @@
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => 'v8.0.0',
-      'version' => '8.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '8eccd0c822ebb57f990bfba839a434211ba0d66e',
     ),
     'laravel/serializable-closure' => 
     array (
@@ -464,6 +482,15 @@
       array (
       ),
       'reference' => '5f2f9815b7631b9f586a3de7933c25f9327d4073',
+    ),
+    'laravel/ui' => 
+    array (
+      'pretty_version' => 'v3.4.5',
+      'version' => '3.4.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f11d295de1508c5bb56206a620b00b6616de414c',
     ),
     'league/commonmark' => 
     array (
@@ -638,6 +665,15 @@
       ),
       'reference' => '93ebd0014cab80c4ea9f5e297ea48672f1b87706',
     ),
+    'phpfastcache/phpfastcache' => 
+    array (
+      'pretty_version' => '8.1.2',
+      'version' => '8.1.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c328625bdf35376278819075e3b72b3b2702f775',
+    ),
     'phpoption/phpoption' => 
     array (
       'pretty_version' => '1.8.1',
@@ -710,6 +746,15 @@
       ),
       'reference' => '5ff8c545a50226c569310a35f4fa89d79f1ddfdc',
     ),
+    'psr/cache' => 
+    array (
+      'pretty_version' => '1.0.1',
+      'version' => '1.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd11b50ad223250cf17b86e38383413f5a6764bf8',
+    ),
     'psr/container' => 
     array (
       'pretty_version' => '1.1.2',
@@ -758,22 +803,6 @@
         0 => '1.0',
       ),
     ),
-    'psr/http-factory' => 
-    array (
-      'pretty_version' => '1.0.1',
-      'version' => '1.0.1.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '12ac7fcd07e5b077433f5f2bee95b3a771bf61be',
-    ),
-    'psr/http-factory-implementation' => 
-    array (
-      'provided' => 
-      array (
-        0 => '1.0',
-      ),
-    ),
     'psr/http-message' => 
     array (
       'pretty_version' => '1.0.1',
@@ -803,8 +832,8 @@
     array (
       'provided' => 
       array (
-        0 => '1.0|2.0',
-        1 => '1.0.0 || 2.0.0 || 3.0.0',
+        0 => '1.0.0 || 2.0.0 || 3.0.0',
+        1 => '1.0|2.0',
       ),
     ),
     'psr/simple-cache' => 
@@ -831,6 +860,15 @@
       array (
       ),
       'reference' => '570292577277f06f590635381a7f761a6cf4f026',
+    ),
+    'raiym/instagram-php-scraper' => 
+    array (
+      'pretty_version' => 'v0.12.4',
+      'version' => '0.12.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3c13ebe81b295d82f15d69d7df3331e810d1cf18',
     ),
     'ralouphie/getallheaders' => 
     array (
