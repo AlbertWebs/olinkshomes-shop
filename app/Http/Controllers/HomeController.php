@@ -306,7 +306,7 @@ class HomeController extends Controller
     }
 
     public function product_quick_view($slung){
-        $Product =  DB::table('product')->where('slung',$slung)->get();
+        $Product =  DB::table('products')->where('slung',$slung)->get();
         return view('front.product-quick-view',compact('Product'));
     }
 
@@ -422,7 +422,7 @@ class HomeController extends Controller
     public function product_single($title){
         Session::forget('Category');
         $SEOSettings = DB::table('seosettings')->get();
-        $Products = DB::table('product')->where('slung',$title)->get();
+        $Products = DB::table('products')->where('slung',$title)->get();
         foreach ($Products as $key => $value) {
             foreach ($SEOSettings as $Settings) {
                 SEOMeta::setTitle(' '.$value->name.' | ' . $Settings->sitename .'');

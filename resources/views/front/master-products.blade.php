@@ -453,8 +453,10 @@
     <script src="{{asset('theme/assets/js/jquery.min.js')}}"></script>
     <script src="{{asset('theme/assets/js/bootstrap.bundle.min.js')}}"></script>
     <script src="{{asset('theme/assets/js/plugins.min.js')}}"></script>
+    <script src="{{asset('theme/assets/js/nouislider.min.js')}}"></script>
     <script src="{{asset('theme/assets/js/jquery.appear.min.js')}}"></script>
     <!-- Main JS File -->
     <script src="{{asset('theme/assets/js/main.min.js')}}"></script>
+
 </body>
 </html>
