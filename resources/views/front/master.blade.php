@@ -151,7 +151,7 @@
                                 </ul>
                             </li>
                             @endforeach
-
+                            <li><a href="{{url('/')}}/products"><span class="fa fa-shopping-cart"></span>  Products </a></li>
                             <li><a href="{{env('LANDING')}}/contact-us"><span class="fa fa-phone"></span> Contact Us</a></li>
 
                         </ul>
