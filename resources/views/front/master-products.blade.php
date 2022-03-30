@@ -117,7 +117,7 @@
                             <i class="fas fa-bars"></i>
                         </button>
                         <a href="{{url('/')}}" class="logo">
-                            <img src="{{asset('theme/assets/images/Olinks-Homes-Presentation-21.png')}}" alt="Olinks Homes" width="104" height="41" />
+                            <img src="{{asset('theme/assets/images/Olinks-Homes-Presentation-21.png')}}" alt="Olinks Homes" width="204" height="41" />
                         </a>
                     </div>
                     <!-- End .headeer-center -->
